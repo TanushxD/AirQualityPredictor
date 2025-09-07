@@ -69,11 +69,15 @@ python model_training.py
 
 Start the Streamlit web application:
 
-`ash
+```bash
 streamlit run app.py
-`
+```
 
-The application will open in your default web browser, typically at http://localhost:8501.
+The application will be available at:
+- **Local URL**: http://localhost:8501
+- **Network URL**: http://172.16.0.2:8501
+
+The application will automatically open in your default web browser.
 
 ## 📊 Dataset Information
 
